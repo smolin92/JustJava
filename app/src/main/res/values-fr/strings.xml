@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Prenom</string>
+    <string name="chocolate">Chocolat</string>
+    <string name="thank_you">Merci !</string>
+    <string name="order_summary_name">Prenom : <ns1:g example="Amy" id="name">%s</ns1:g></string>
+    <string name="order_summary_whipped_cream">Avec du crème fouettée ? <ns1:g example="true" id="whipped_cream">%b</ns1:g></string>
+    <string name="order_summary_chocolate">Avec du chocolat ? <ns1:g example="false" id="chocolate">%b</ns1:g></string>
+    <string name="order">Commander</string>
+    <string name="quantity">Quantité</string>
+    <string name="whipped_cream">Crème fouettée</string>
+    <string name="toppings">Garnitures</string>
+    <string name="order_summary_quantity">Quantité : <ns1:g example="2" id="cups">%d</ns1:g></string>
+    <string name="order_summary_total">Total : <ns1:g example="$10" id="price">%d</ns1:g></string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="name">Nombre</string>
+    <string name="whipped_cream">Crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Cantidad</string>
+    <string name="order">Pedir</string>
+    <!-- Header text for the list of toppings [CHAR LIMIT = 20] -->
+    <string name="toppings">Ingredientes</string>
+
+    <!-- Thank you message for the order summary [CHAR LIMIT = NONE] -->
+    <string name="thank_you">Gracias!</string>
+
+    <!-- Name for the order summary as in "Name: Amy" where user's name is Amy [CHAR LIMIT = NONE] -->
+    <string name="order_summary_name">Nombre: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">Con whipped cream? <xliff:g id="whipped_cream" example="true">%b</xliff:g></string>
+    <string name="order_summary_chocolate">Con chocolate? <xliff:g id="chocolate" example="false">%b</xliff:g></string>
+    <string name="order_summary_quantity">Cantidad: <xliff:g id="cups" example="2">%d</xliff:g></string>
+    <string name="order_summary_total">Total: <xliff:g id="price" example="$10">%d</xliff:g></string>
+</resources>
